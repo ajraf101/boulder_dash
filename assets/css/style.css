@@ -70,3 +70,33 @@ h2 {
     width: 100%;
     background: url("../images/pexels-skitterphoto-9606.jpg") no-repeat 50% 78%;
 }
+
+/* Cover text for heo image*/
+
+#cover-text {
+    font-size: 160%;
+    font-family: Monserrat, sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    text-align: center;
+    color: #e7dbce;
+
+    border-radius: 50%;
+    border: 10px solid #b87067;
+    width: 350px;
+    height: 320px;
+
+    padding-top: 30px;
+    padding-left: 10px;
+
+    background-color: #352b2caa;
+
+    bottom: 30px;
+    right: 150px;
+
+    position: absolute;
+}
+
+#cover-text #cover-text-small {
+    font-size: 110%;
+}

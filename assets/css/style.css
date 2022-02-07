@@ -55,6 +55,14 @@ h1 {
 
 h2 {
     font-family: Montserrat, sans-serif;
+    text-align: center;
+}
+
+.center-divs {
+    text-align: center;
+    padding: 0 300px;
+    font-size: 25px;
+
 }
 
 /* Hero Image*/
@@ -69,6 +77,29 @@ h2 {
     height: 700px;
     width: 100%;
     background: url("../images/pexels-skitterphoto-9606.jpg") no-repeat 50% 78%;
+
+    /* Image animation*/
+    position: relative;
+    animation-name: float-up;
+    animation-duration: 2s;
+}
+
+/*Animation for hero image*/
+@keyframes float-up {
+    0% {
+        left: 0px;
+        top: 100px;
+        opacity: 0;
+    }
+
+    80% {
+        opacity: 1;
+    }
+
+    100% {
+        left: 0px;
+        top: 0px;
+    }
 }
 
 /* Cover text for heo image*/
@@ -84,9 +115,9 @@ h2 {
     border-radius: 50%;
     border: 10px solid #b87067;
     width: 350px;
-    height: 320px;
+    height: 325px;
 
-    padding-top: 30px;
+    padding-top: 25px;
     padding-left: 10px;
 
     background-color: #352b2caa;
@@ -95,6 +126,26 @@ h2 {
     right: 150px;
 
     position: absolute;
+
+    /*Animation for cover text*/
+    animation-name: opacity;
+    animation-duration: 3s;
+}
+
+/*Animation for cover text*/
+
+@keyframes opacity {
+    0% {
+        opacity: 0;
+    }
+
+    30% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
 }
 
 #cover-text #cover-text-small {

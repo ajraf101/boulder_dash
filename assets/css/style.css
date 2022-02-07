@@ -38,14 +38,6 @@ h1 {
 #menu {
     font-size: 150%;
     text-decoration: none;
-    position: absolute;
-    left: 50%;
-    /* background color to be removed, soley for testing */
-    background-color: rgba(40, 40, 40, .6);
-}
-
-#menu>li {
-    flex: 1;
 }
 
 #menu li {
@@ -53,8 +45,27 @@ h1 {
     display: inline;
 }
 
+#menu a {
+    text-decoration: none;
+    color: inherit;
+}
+
 /* body */
+
 
 h2 {
     font-family: Montserrat, sans-serif;
 }
+
+/* Hero Image*/
+#hero-outer {
+    height: 600px;
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+}
+
+#hero-image {
+    height: 600px;
+    width: 100%;
+    background: url("../images/pexels-skitterphoto-9606.jpg") no-repeat 50% 78%;

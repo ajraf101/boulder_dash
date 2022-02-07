@@ -59,13 +59,13 @@ h2 {
 
 /* Hero Image*/
 #hero-outer {
-    height: 600px;
+    height: 700px;
     width: 100%;
     overflow: hidden;
     position: relative;
 }
 
 #hero-image {
-    height: 600px;
+    height: 700px;
     width: 100%;
     background: url("../images/pexels-skitterphoto-9606.jpg") no-repeat 50% 78%;

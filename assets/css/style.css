@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Source+Sans+Pro:wght@200&display=swap');
+
+
+/* Color pallette based on hero image
+#9e410c maroon
+#c0a68e dark beige
+#d06418 rich orange
+#e7dbce Cream
+#e4d4c3 slightly darker cream
+#352b2c dark brown/off-grey
+#d8854f pastel orange
+#7a624d light brown/green
+#b87067 pastel pink/red
+*/
+
+
+body {
+    font-family: Source Sans Pro, sans-serif;
+    background-color: #e7dbce;
+}
+
+/* Navigation Bar*/
+header {
+    width: 100%;
+    text-align: center;
+}
+
+h1 {
+    font-family: Montserrat, sans-serif;
+}
+
+#logo {
+    font-size: 300%;
+}
+
+#menu {
+    font-size: 150%;
+    display: flex;
+
+    border: 3px solid blue, ;
+}
+
+
+#menu li {
+    list-style-type: none;
+    display: inline;
+}
+
+/* body */
+
+h2 {
+    font-family: Montserrat, sans-serif;
+}

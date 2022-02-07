@@ -27,19 +27,26 @@ header {
 
 h1 {
     font-family: Montserrat, sans-serif;
+    color: #d06418;
 }
 
 #logo {
     font-size: 300%;
+    text-decoration: none;
 }
 
 #menu {
     font-size: 150%;
-    display: flex;
-
-    border: 3px solid blue, ;
+    text-decoration: none;
+    position: absolute;
+    left: 50%;
+    /* background color to be removed, soley for testing */
+    background-color: rgba(40, 40, 40, .6);
 }
 
+#menu>li {
+    flex: 1;
+}
 
 #menu li {
     list-style-type: none;

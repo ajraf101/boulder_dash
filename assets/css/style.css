@@ -151,3 +151,21 @@ h2 {
 #cover-text #cover-text-small {
     font-size: 110%;
 }
+
+/* Meetups */
+
+#meetups_div {
+    padding: 20px 50px;
+}
+
+#container_meetups {
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+    /*grid-template-rows: 20px 100px 100px;*/
+}
+
+.float_meetups {
+    text-align: center;
+    font-size: 110%;
+    background-color: red;
+}

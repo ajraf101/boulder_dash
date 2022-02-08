@@ -160,12 +160,13 @@ h2 {
 
 #container_meetups {
     display: grid;
-    grid-template-columns: 33% 33% 33%;
-    /*grid-template-rows: 20px 100px 100px; THIS MIGHT BE HOW I SORT OUT THE SPACING BETWEEN DAYS ESPECIALLY THE KIDS CLUB*/
+    grid-template-columns: auto auto auto;
+    /*grid-template-rows: 20% 40% 40%;*/
 }
 
 .float_meetups {
     text-align: center;
     font-size: 110%;
-    background-color: red;
+    /*background-color: red;
+    border: 3px solid blue;*/
 }

@@ -161,7 +161,7 @@ h2 {
 #container_meetups {
     display: grid;
     grid-template-columns: 33% 33% 33%;
-    /*grid-template-rows: 20px 100px 100px;*/
+    /*grid-template-rows: 20px 100px 100px; THIS MIGHT BE HOW I SORT OUT THE SPACING BETWEEN DAYS ESPECIALLY THE KIDS CLUB*/
 }
 
 .float_meetups {

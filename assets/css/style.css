@@ -152,21 +152,73 @@ h2 {
     font-size: 110%;
 }
 
+/* About Us*/
+
+#about-us-container {
+    display: flex;
+}
+
+.about-us-child {
+    flex: 1;
+    border: 3px solid red;
+    font-size: 150%;
+    padding: 10px 40px;
+    background-color: purple;
+}
+
+#image-1 {
+    width: 300px;
+    border-radius: 50%;
+}
+
 /* Meetups */
 
-#meetups_div {
+#meetups-div {
     padding: 20px 50px;
 }
 
-#container_meetups {
+#meetups-container {
     display: grid;
     grid-template-columns: auto auto auto;
     /*grid-template-rows: 20% 40% 40%;*/
 }
 
-.float_meetups {
+.meetups-grid-item {
     text-align: center;
     font-size: 110%;
     /*background-color: red;
     border: 3px solid blue;*/
+}
+
+/* Sign up*/
+
+#sign-up-container {
+    padding: 10px 100px 50px 100px;
+    display: flex;
+    background-color: greenyellow;
+}
+
+.sign-up-child {
+    flex: 1;
+    border: 3px solid red;
+    font-size: 150%;
+    padding: 10px 40px;
+}
+
+.sign-up-child p {
+    text-align: center;
+}
+
+.sign-up-child form {
+    text-align: right;
+}
+
+
+
+/* Footer */
+
+#footer-div {
+    width: 100%;
+    height: 50px;
+    background-color: #352b2c;
 }

@@ -23,8 +23,8 @@
         </a>
         <nav id="menu">
             <ul>
-                <li><a href="#">About Us</a></li>
-                <li><a href="#">Meetups</a></li>
+                <li><a href="#about-us">About Us</a></li>
+                <li><a href="#meetups">Meetups</a></li>
                 <li><a href="#">Gallery</a></li>
                 <li><a href="#">Sign Up</a></li>
             </ul>
@@ -44,42 +44,47 @@
     <!--About Us-->
 
     <section>
-        <h2>About Us</h2>
-        <div class="center-divs">
-            <p>Established in 2022, Boulder Dash is quickly becoming Limerick's most popular climbing club. This is a
-                club specific to those interested in indoor and outdoor bouldering. The club is open to people of all
-                ages with an under 12 club occuring on Sunday morning. Check out our website and join the community to
-                keep up to date with the latest information from the club</p>
+        <h2 id="about-us">About Us</h2>
+        <div id="about-us-container">
+            <div class="about-us-child">
+                <img id="image-1" src="assets/images/pexels-allan-mas-5384641.jpg" alt="">
+            </div>
+            <div class="center-divs about-us-child">
+                <p>Established in 2022, Boulder Dash is quickly becoming Limerick's most popular climbing club. This is a
+                    club specific to those interested in indoor and outdoor bouldering. The club is open to people of all
+                    ages with an under 12 club occuring on Sunday morning. Check out our website and join the community to
+                    keep up to date with the latest information from the club</p>
+            </div>
         </div>
     </section>
 
     <!--Meetups-->
 
     <section>
-        <div id="meetups_div">
-            <h2>Meetups</h2>
-            <div id="container_meetups">
+        <div id="meetups-div">
+            <h2 id="meetups">Meetups</h2>
+            <div id="meetups-container">
 
                 <!--div headings-->
 
-                <div class="float_meetups">
+                <div class="meetups-grid-item">
                     <h3>Local Climbing</h3>
                 </div>
-                <div class="float_meetups">
+                <div class="meetups-grid-item">
                     <h3>Indoor Trips</h3>
                 </div>
-                <div class="float_meetups">
+                <div class="meetups-grid-item">
                     <h3>Outdoor Trips</h3>
                 </div>
 
                 <!--Local Climbing-->
 
-                <div class="float_meetups">
+                <div class="meetups-grid-item">
                     <h4>Tuesday & Thursday</h4>
                     <h4>7pm - 9pm</h4>
                     <h4>Suas Climbing Centre, Limerick</h4>
                 </div>
-                <div class="float_meetups">
+                <div class="meetups-grid-item">
                     <h4>Kids Club</h4>
                     <h4>Sundays</h4>
                     <h4>9am - 11am</h4>
@@ -87,14 +92,14 @@
                 </div>
 
                 <!--Indoor Trips-->
-                <div class="float_meetups">
+                <div class="meetups-grid-item">
                     <h4>Sat 12th Feb</h4>
                     <h4>10am - 7pm</h4>
                     <h4>Awesome Walls, Dublin</h4>
                     <h4>Bus leaving Arthurs Quay @ 10am</h4>
                     <h4>Cost: €25pp</h4>
                 </div>
-                <div class="float_meetups">
+                <div class="meetups-grid-item">
                     <h4>Sat 19th Feb</h4>
                     <h4>10am - 6pm</h4>
                     <h4>Awesome Walls, Cork</h4>
@@ -104,14 +109,14 @@
 
                 <!--Outdoor Trips-->
 
-                <div class="float_meetups">
+                <div class="meetups-grid-item">
                     <h4>Sun 27th Feb</h4>
                     <h4>12pm - 7pm</h4>
                     <h4>Doolin, Clare</h4>
                     <h4>Bus leaving Arthurs Quay @ 12pm</h4>
                     <h4>Cost: €50pp</h4>
                 </div>
-                <div class="float_meetups">
+                <div class="meetups-grid-item">
                     <h4>Sun 27th Mar</h4>
                     <h4>12pm - 7pm</h4>
                     <h4>Gap of Dunloe, Kerry</h4>
@@ -136,13 +141,13 @@
 
     <section>
         <h2>Sign Up</h2>
-        <div class="center-divs">
-            <div>
+        <div id="sign-up-container">
+            <div class="sign-up-child">
                 <p>Sign up for our weekly newsletter to keep up to date with the latest meetups and photos at Boulder
-                    Dash
+                    Dash.
                 </p>
             </div>
-            <div>
+            <div class="sign-up-child">
                 <form>
                     <label for="name">Full name:</label>
                     <input type="text" id="name" name="name" required><br>
@@ -156,7 +161,7 @@
 
     <footer>
         <!-- BEGINNING TO ADD FONT AWSOME ICONS, MAYBE THEY NEED TO BE IN A LIST LIKE LOVE RUNNING???  MAYBE I CAN REFERENCE THIS PAGE:  https://www.w3schools.com/howto/howto_css_social_media_buttons.asp-->
-        <div>
+        <div id="footer-div">
             <i class="fa-brands fa-facebook-square"></i>
             <i class="fa-brands fa-instagram-square"></i>
             <i class="fa-brands fa-youtube-square"></i>

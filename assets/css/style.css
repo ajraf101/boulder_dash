@@ -102,7 +102,7 @@ h2 {
     }
 }
 
-/* Cover text for heo image*/
+/* Cover text for hero image*/
 
 #cover-text {
     font-size: 160%;
@@ -148,7 +148,7 @@ h2 {
     }
 }
 
-#cover-text #cover-text-small {
+.cover-text .cover-text-small {
     font-size: 110%;
 }
 
@@ -156,19 +156,22 @@ h2 {
 
 #about-us-container {
     display: flex;
+    padding: 0 200px;
 }
 
 .about-us-child {
+    text-align: left;
     flex: 1;
-    border: 3px solid red;
     font-size: 150%;
     padding: 10px 40px;
-    background-color: purple;
 }
 
 #image-1 {
-    width: 300px;
-    border-radius: 50%;
+    float: right;
+    padding-top: 25px;
+    height: 250px;
+    width: 600px;
+    object-fit: cover
 }
 
 /* Meetups */
@@ -180,14 +183,15 @@ h2 {
 #meetups-container {
     display: grid;
     grid-template-columns: auto auto auto;
-    /*grid-template-rows: 20% 40% 40%;*/
+    background: url("../images/pexels-pixabay-533842.jpg") no-repeat center 25%;
 }
 
 .meetups-grid-item {
     text-align: center;
-    font-size: 110%;
-    /*background-color: red;
-    border: 3px solid blue;*/
+    font-size: 130%;
+    background-color: #352b2cbb;
+    border: 4px solid #e4d4c3;
+    color: #e4d4c3;
 }
 
 /* Sign up*/

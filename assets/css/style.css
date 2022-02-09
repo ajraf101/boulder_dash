@@ -29,7 +29,6 @@ header a {
     text-decoration: none;
 }
 
-
 h1 {
     font-family: Montserrat, sans-serif;
     color: #d06418;
@@ -38,7 +37,6 @@ h1 {
 
 #logo {
     font-size: 300%;
-    background-color: red;
 }
 
 #menu {
@@ -46,22 +44,24 @@ h1 {
     text-decoration: none;
 }
 
-#menu,
-#logo {
-    line-height: 50px;
+#menu ul {
+    float: right;
 }
 
 #menu li {
     list-style-type: none;
     display: inline;
-    float: right;
+    float: left;
     padding: 30px;
-    background-color: green;
 }
 
 #menu a {
     text-decoration: none;
     color: inherit;
+}
+
+#menu a:hover {
+    color: #d06418;
 }
 
 /* body */
@@ -70,16 +70,18 @@ h1 {
 h2 {
     font-family: Montserrat, sans-serif;
     text-align: center;
+    font-size: 200%;
+    text-decoration: underline;
 }
 
 .center-divs {
     text-align: center;
     padding: 0 300px;
     font-size: 25px;
-
 }
 
-/* Hero Image*/
+/* Hero Image */
+
 #hero-outer {
     height: 700px;
     width: 100%;
@@ -92,13 +94,15 @@ h2 {
     width: 100%;
     background: url("../images/pexels-skitterphoto-9606.jpg") no-repeat 50% 78%;
 
-    /* Image animation*/
+    /* Image animation */
+
     position: relative;
     animation-name: float-up;
     animation-duration: 2s;
 }
 
-/*Animation for hero image*/
+/* Animation for hero image */
+
 @keyframes float-up {
     0% {
         left: 0px;
@@ -116,7 +120,7 @@ h2 {
     }
 }
 
-/* Cover text for hero image*/
+/* Cover text for hero image */
 
 #cover-text {
     font-size: 160%;
@@ -141,12 +145,12 @@ h2 {
 
     position: absolute;
 
-    /*Animation for cover text*/
+    /* nimation for cover text */
     animation-name: opacity;
     animation-duration: 3s;
 }
 
-/*Animation for cover text*/
+/* Animation for cover text */
 
 @keyframes opacity {
     0% {
@@ -166,7 +170,7 @@ h2 {
     font-size: 110%;
 }
 
-/* About Us*/
+/* About Us */
 
 #about-us-container {
     display: flex;
@@ -191,7 +195,7 @@ h2 {
 /* Meetups */
 
 #meetups-div {
-    padding: 20px 50px;
+    padding: 20px 200px;
 }
 
 #meetups-container {
@@ -206,6 +210,20 @@ h2 {
     background-color: #352b2cbb;
     border: 4px solid #e4d4c3;
     color: #e4d4c3;
+}
+
+/* Gallery */
+
+#photos-container {
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
+    object-fit: cover;
+}
+
+.photos-grid-item {
+    max-width: 100%;
+    height: 300px;
+    overflow: hidden;
 }
 
 /* Sign up*/

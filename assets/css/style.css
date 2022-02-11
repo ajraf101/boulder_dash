@@ -178,12 +178,16 @@ header a {
 
 /* About Us */
 
-#about-us-container {
-    display: flex;
-    padding: 0 200px;
+#about-us-outer {
+    padding-top: 30px;
 }
 
-.about-us-child {
+#about-us-container {
+    display: flex;
+    padding: 50px 200px 200px 200px;
+}
+
+.about-us-image {
     text-align: left;
     flex: 1;
     font-size: 150%;

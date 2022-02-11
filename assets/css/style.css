@@ -218,6 +218,10 @@ h2 {
     color: #e4d4c3;
 }
 
+.meetups-grid-item ul {
+    font-size: 130%;
+}
+
 /* Gallery */
 
 #photos-container {

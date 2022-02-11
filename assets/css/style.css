@@ -23,6 +23,12 @@ body {
 header {
     width: 100%;
     text-align: left;
+    display: flex;
+    justify-content: space-between;
+    height: 60px;
+    flex-wrap: wrap;
+    align-content: center;
+    padding-top: 30px;
 }
 
 header a {

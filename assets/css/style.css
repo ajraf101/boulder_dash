@@ -32,6 +32,7 @@ h2 {
     text-decoration: underline;
 }
 
+
 /* Navigation Bar*/
 header {
     width: 100%;
@@ -89,7 +90,7 @@ header a {
 
 #hero-outer {
     height: 700px;
-    width: 1920;
+    width: 100%;
     overflow: hidden;
     position: relative;
 }
@@ -246,8 +247,6 @@ header a {
 .sign-up-child form {
     text-align: right;
 }
-
-
 
 /* Footer */
 

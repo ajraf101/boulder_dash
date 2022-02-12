@@ -35,7 +35,6 @@ h2 {
 
 /* Navigation Bar*/
 header {
-    width: 100%;
     text-align: left;
     display: flex;
     justify-content: space-between;
@@ -127,9 +126,11 @@ header a {
 }
 
 /* Cover text for hero image */
+#cover-text>h2 {
+    text-decoration: none;
+}
 
 #cover-text {
-    font-size: 160%;
     font-family: Monserrat, sans-serif;
     text-transform: uppercase;
     letter-spacing: 4px;
@@ -138,11 +139,10 @@ header a {
 
     border-radius: 50%;
     border: 10px solid #b87067;
-    width: 350px;
-    height: 325px;
+    width: 325px;
+    height: 215px;
 
-    padding-top: 25px;
-    padding-left: 10px;
+    padding: 55px 20px;
 
     background-color: #352b2caa;
 
@@ -172,8 +172,8 @@ header a {
     }
 }
 
-.cover-text .cover-text-small {
-    font-size: 110%;
+.cover-text-small {
+    font-size: 160%;
 }
 
 /* About Us */
@@ -181,7 +181,6 @@ header a {
 #about-us-outer {
     padding-top: 30px;
     height: auto;
-    display: flex;
 }
 
 #about-us-container {
@@ -210,6 +209,11 @@ header a {
     padding: 20px 200px;
 }
 
+.meetups-grid-item ul {
+    font-size: 130%;
+    list-style: none;
+}
+
 #meetups-container {
     display: grid;
     grid-template-columns: auto auto auto;
@@ -226,10 +230,6 @@ header a {
     height: 300px;
 }
 
-.meetups-grid-item ul {
-    font-size: 130%;
-    text-decoration: none;
-}
 
 /* Sign up*/
 

@@ -1,5 +1,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Source+Sans+Pro:wght@200&display=swap');
 
+/*
+#9e410c maroon
+#c0a68e dark beige
+#d06418 rich orange
+#e7dbce Cream
+#e4d4c3 slightly darker cream
+#352b2c dark brown/off-grey
+#d8854f pastel orange
+#7a624d light brown/green
+#b87067 pastel pink/red
+*/
 * {
     margin: 0;
     padding: 0;
@@ -251,21 +262,24 @@ First attempt at grid #meetups-div {
 
 /* Sign up*/
 
+#sign-up-section {
+    padding: 200px 10px;
+}
+
 #sign-up-container {
     padding: 10px 100px 50px 100px;
     display: flex;
+    align-items: center;
 }
 
 .sign-up-div {
     flex: 1;
-    border: 3px solid red;
     font-size: 150%;
     padding: 10px 100px;
 }
 
 .sign-up-div p {
     text-align: center;
-
 }
 
 .sign-up-div form {
@@ -281,13 +295,13 @@ First attempt at grid #meetups-div {
 
 #submit {
     width: 25%;
-    color: #e4d4c3;
+    color: #352b2c;
     background-color: #d06418;
 }
 
 #submit:hover {
     color: #d06418;
-    background-color: #e4d4c3;
+    background-color: #352b2c;
 }
 
 /* Footer */

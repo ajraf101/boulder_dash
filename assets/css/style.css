@@ -280,7 +280,14 @@ First attempt at grid #meetups-div {
 }
 
 #submit {
-    width: 25%
+    width: 25%;
+    color: #e4d4c3;
+    background-color: #d06418;
+}
+
+#submit:hover {
+    color: #d06418;
+    background-color: #e4d4c3;
 }
 
 /* Footer */

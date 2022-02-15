@@ -1,18 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Source+Sans+Pro:wght@200&display=swap');
 
-
-/* Color pallette based on hero image
-#9e410c maroon
-#c0a68e dark beige
-#d06418 rich orange
-#e7dbce Cream
-#e4d4c3 slightly darker cream
-#352b2c dark brown/off-grey
-#d8854f pastel orange
-#7a624d light brown/green
-#b87067 pastel pink/red
-*/
-
+* {
+    margin: 0;
+    padding: 0;
+}
 
 body {
     font-family: Source Sans Pro, sans-serif;
@@ -33,7 +24,8 @@ h2 {
 }
 
 
-/* Navigation Bar*/
+/* Navigation Bar */
+
 header {
     text-align: left;
     display: flex;
@@ -209,8 +201,8 @@ header a {
     padding: 20px 200px;
 }
 
+
 .meetups-grid-item ul {
-    font-size: 130%;
     list-style: none;
 }
 
@@ -227,9 +219,26 @@ header a {
     background-color: #352b2cbb;
     border: 4px solid #e4d4c3;
     color: #e4d4c3;
-    height: 300px;
 }
 
+/* Second test of meetups area
+#meetups-container {
+    display: flex;
+    background: url("../images/pexels-pixabay-533842.jpg") no-repeat center 25%;
+    padding: 0 150px;
+}
+
+.meetups-grid-item {
+    text-align: center;
+    font-size: 130%;
+    background-color: #352b2cbb;
+    border: 4px solid #e4d4c3;
+    color: #e4d4c3;
+}
+
+.meetups-grid-item ul {
+    list-style: none;
+}*/
 
 /* Sign up*/
 
@@ -239,18 +248,19 @@ header a {
     background-color: greenyellow;
 }
 
-.sign-up-child {
+.sign-up-div {
     flex: 1;
     border: 3px solid red;
     font-size: 150%;
-    padding: 10px 40px;
+    padding: 10px 100px;
 }
 
-.sign-up-child p {
+.sign-up-div p {
     text-align: center;
+
 }
 
-.sign-up-child form {
+.sign-up-div form {
     text-align: right;
 }
 

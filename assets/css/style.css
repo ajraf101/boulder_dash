@@ -34,6 +34,11 @@ h2 {
     text-decoration: underline;
 }
 
+footer {
+    left: 0;
+    bottom: 0;
+    width: 100%;
+}
 
 /* Navigation Bar */
 
@@ -131,6 +136,7 @@ header a {
 /* Cover text for hero image */
 #cover-text>h2 {
     text-decoration: none;
+    padding: 0 0 10px 0
 }
 
 #cover-text {
@@ -143,14 +149,13 @@ header a {
     border-radius: 50%;
     border: 10px solid #b87067;
     width: 325px;
-    height: 215px;
-
-    padding: 55px 20px;
+    height: 155px;
+    padding: 85px 20px;
 
     background-color: #352b2caa;
 
-    bottom: 30px;
-    right: 150px;
+    bottom: 40px;
+    right: 220px;
 
     position: absolute;
 

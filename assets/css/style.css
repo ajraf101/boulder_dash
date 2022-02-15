@@ -254,7 +254,6 @@ First attempt at grid #meetups-div {
 #sign-up-container {
     padding: 10px 100px 50px 100px;
     display: flex;
-    background-color: greenyellow;
 }
 
 .sign-up-div {
@@ -277,7 +276,11 @@ First attempt at grid #meetups-div {
     width: 100%;
     padding: 16px 0;
     border: none;
-    background-color: #e4d4c3;
+    border-radius: 4px;
+}
+
+#submit {
+    width: 25%
 }
 
 /* Footer */

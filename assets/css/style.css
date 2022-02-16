@@ -253,17 +253,15 @@ header a {
     grid-template-areas:
         'local-climbing-title indoor-trips-title outoor-trips-title'
         'local-climbing-row-2 indoor-trips-row-2 outoor-trips-row-2'
-        'local-climbing-row-3 indoor-trips-row-3 outoor-trips-row-3'
-    ;
+        'local-climbing-row-3 indoor-trips-row-3 outoor-trips-row-3';
     background-image: url("../images/pexels-pixabay-533842.jpg");
-    border-image-repeat: none;
-    padding: 50px 100px;
-
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .meetups-grid-item {
     text-align: center;
-    font-size: 130%;
+    font-size: 145%;
     background-color: #352b2cbb;
     border: 4px solid #e4d4c3;
     color: #e4d4c3;

@@ -212,6 +212,74 @@ header a {
 
 /* Meetups */
 
+.grid-item-1 {
+    grid-area: local-climbing-title;
+}
+
+.grid-item-2 {
+    grid-area: local-climbing-row-2;
+}
+
+.grid-item-3 {
+    grid-area: local-climbing-row-3;
+}
+
+.grid-item-4 {
+    grid-area: indoor-trips-title;
+}
+
+.grid-item-5 {
+    grid-area: indoor-trips-row-2;
+}
+
+.grid-item-6 {
+    grid-area: indoor-trips-row-3;
+}
+
+.grid-item-7 {
+    grid-area: outoor-trips-title;
+}
+
+.grid-item-8 {
+    grid-area: outoor-trips-row-2;
+}
+
+.grid-item-9 {
+    grid-area: outoor-trips-row-3;
+}
+
+#meetups-container {
+    display: grid;
+    grid-template-areas:
+        'local-climbing-title indoor-trips-title outoor-trips-title'
+        'local-climbing-row-2 indoor-trips-row-2 outoor-trips-row-2'
+        'local-climbing-row-3 indoor-trips-row-3 outoor-trips-row-3'
+    ;
+    background-image: url("../images/pexels-pixabay-533842.jpg");
+    border-image-repeat: none;
+    padding: 50px 100px;
+
+}
+
+.meetups-grid-item {
+    text-align: center;
+    font-size: 130%;
+    background-color: #352b2cbb;
+    border: 4px solid #e4d4c3;
+    color: #e4d4c3;
+
+}
+
+.meetups-grid-item ul {
+    list-style: none;
+}
+
+.meetups-grid-item h3 {
+    font-size: 150%;
+}
+
+
+
 /*Third attempt at grid
 #meetups-container {
     display: grid;
@@ -220,7 +288,7 @@ header a {
     padding: 0 150px;
 }*/
 
-
+/* original attempt
 #meetups-div {
     padding: 20px 200px
 }
@@ -243,26 +311,8 @@ header a {
     background-color: #352b2cbb;
     border: 4px solid #e4d4c3;
     color: #e4d4c3;
-}
-
-/* Second test of meetups area
-#meetups-container {
-    display: flex;
-    background: url("../images/pexels-pixabay-533842.jpg") no-repeat center 25%;
-    padding: 0 150px;
-}
-
-.meetups-grid-item {
-    text-align: center;
-    font-size: 130%;
-    background-color: #352b2cbb;
-    border: 4px solid #e4d4c3;
-    color: #e4d4c3;
-}
-
-.meetups-grid-item ul {
-    list-style: none;
 }*/
+
 
 /* Sign up*/
 

@@ -12,6 +12,9 @@ about us photo: https://www.pexels.com/photo/road-fashion-man-people-6676719/
 
 linking nav bar to areas on the site: https://www.tutorialrepublic.com/html-tutorial/html-links.php#:~:text=HTML%20Link%20Syntax,group%20of%20words%2C%20or%20image.
 
+styling with font awesome: https://fontawesome.com/docs/web/style/styling
+
+vertically align inside a flex box https://stackoverflow.com/questions/25311541/how-to-vertically-align-text-inside-a-flexbox
 
 Color pallette based on hero image
 #9e410c maroon

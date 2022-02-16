@@ -16,7 +16,7 @@ styling with font awesome: https://fontawesome.com/docs/web/style/styling
 
 vertically align inside a flex box https://stackoverflow.com/questions/25311541/how-to-vertically-align-text-inside-a-flexbox
 
-how the grid worked in the end:
+how the grid worked in the end:https://www.w3schools.com/css/css_grid.asp
 
 Color pallette based on hero image
 #9e410c maroon

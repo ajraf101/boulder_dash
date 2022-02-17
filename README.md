@@ -26,6 +26,7 @@ styling for video in a div: Width: https://css-tricks.com/fluid-width-video/ Ver
 
 styling a paragraph:https://stackoverflow.com/questions/41253908/changing-spacing-between-paragraphs-and-inside-of-paragraphs, https://blog.hubspot.com/website/how-to-indent-css#:~:text=Paragraphs%20in%20CSS-,You%20can%20use%20the%20CSS%20text%2Dindent%20property%20to%20indent,the%20first%20line%20by%20default.
 
+video compressor:https://www.veed.io/video-compressor
 
 Color pallette based on hero image
 #9e410c maroon

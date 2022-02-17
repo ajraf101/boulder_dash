@@ -1,19 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Source+Sans+Pro:wght@200&display=swap');
 
-/*
-#9e410c maroon
-#c0a68e dark beige
-#d06418 rich orange
-#e7dbce Cream
-#e4d4c3 slightly darker cream
-#352b2c dark brown/off-grey
-#d8854f pastel orange
-#7a624d light brown/green
-#b87067 pastel pink/red
-*/
 * {
     margin: 0;
     padding: 0;
+}
+
+header {
+    padding: 5px 0;
 }
 
 body {
@@ -192,7 +185,6 @@ header a {
 }
 
 #about-us-outer p {
-    text-indent: 5%;
     margin-bottom: 10px;
 }
 
@@ -372,3 +364,44 @@ header a {
     font-size: 3em;
     color: #e7dbce;
 }
+
+
+
+
+
+
+
+/* media queries */
+
+@media screen and (max-width: 1200px) {
+
+    #about-us-container {
+        padding: 10px 0;
+        flex-direction: column;
+    }
+
+    #image-about-us {
+        width: 100%;
+    }
+
+    #about-us-video-container {
+        flex-direction: column;
+        padding: 100px 0;
+    }
+
+    #meetups-container {
+        grid-template-areas:
+            'local-climbing-title local-climbing-row-2'
+
+
+
+            'local-climbing-title indoor-trips-title outoor-trips-title'
+            'local-climbing-row-2 indoor-trips-row-2 outoor-trips-row-2'
+            'local-climbing-row-3 indoor-trips-row-3 outoor-trips-row-3'
+            'footer footer footer';
+    }
+
+    @media screen and (max-width: 800px) {}
+
+    /* for medium screen sizes from 950px wide and down */
+    @media screen and (max-width: 950px) {}

@@ -18,6 +18,15 @@ vertically align inside a flex box https://stackoverflow.com/questions/25311541/
 
 how the grid worked in the end:https://www.w3schools.com/css/css_grid.asp
 
+grid background: https://www.w3schools.com/cssref/css3_pr_background-size.asp
+
+image color picker: https://imagecolorpicker.com/en
+
+styling for video in a div: Width: https://css-tricks.com/fluid-width-video/ Vertical align:https://stackoverflow.com/questions/28634780/vertically-centering-video-inside-a-video-tag
+
+styling a paragraph:https://stackoverflow.com/questions/41253908/changing-spacing-between-paragraphs-and-inside-of-paragraphs, https://blog.hubspot.com/website/how-to-indent-css#:~:text=Paragraphs%20in%20CSS-,You%20can%20use%20the%20CSS%20text%2Dindent%20property%20to%20indent,the%20first%20line%20by%20default.
+
+
 Color pallette based on hero image
 #9e410c maroon
 #c0a68e dark beige

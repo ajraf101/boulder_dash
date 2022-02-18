@@ -482,3 +482,33 @@ header a {
         padding: 10px;
     }
 }
+
+@media screen and (max-width: 850px) {
+
+    #logo {
+        font-size: 285%;
+    }
+
+    #cover-text {
+        bottom: 39%;
+        width: 307px;
+        height: 169px;
+    }
+}
+
+@media screen and (max-width: 670px) {
+
+    #logo {
+        font-size: 260%;
+    }
+
+    #menu {
+        font-size: 110%;
+    }
+
+    #cover-text {
+        width: 290px;
+        padding: 60px 25px 90px 25px;
+        bottom: 45%;
+    }
+}

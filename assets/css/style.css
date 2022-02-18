@@ -6,7 +6,12 @@
 }
 
 header {
-    padding: 5px 0;
+    text-align: left;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-content: center;
+    padding-top: 15px;
 }
 
 body {
@@ -34,16 +39,6 @@ footer {
 }
 
 /* Navigation Bar */
-
-header {
-    text-align: left;
-    display: flex;
-    justify-content: space-between;
-    height: 60px;
-    flex-wrap: wrap;
-    align-content: center;
-    padding-top: 30px;
-}
 
 header a {
     text-decoration: none;
@@ -226,8 +221,6 @@ header a {
     width: 100% !important;
     height: auto !important;
     position: relative;
-    top: 50%;
-    transform: translateY(-50%);
 }
 
 
@@ -370,15 +363,28 @@ header a {
 }
 
 
-
-
-
-
-
 /* media queries */
+
+@media screen and (min-width: 1200px) {
+
+    header {
+        height: 60px;
+    }
+
+    .video-item video {
+        top: 50%;
+        transform: translateY(-50%);
+    }
+}
+
 
 @media screen and (max-width: 1200px) {
 
+    header {
+        flex-direction: column;
+    }
+
+    /* About Us */
     #about-us-container {
         padding: 10px 0;
         flex-direction: column;
@@ -393,19 +399,28 @@ header a {
         padding: 100px 0;
     }
 
-    #meetups-container {
-        grid-template-areas:
-            'local-climbing-title local-climbing-row-2'
+    /* Meetups */
 
-
-
-            'local-climbing-title indoor-trips-title outoor-trips-title'
-            'local-climbing-row-2 indoor-trips-row-2 outoor-trips-row-2'
-            'local-climbing-row-3 indoor-trips-row-3 outoor-trips-row-3'
-            'footer footer footer';
+    #meetups-outer {
+        padding: 20px 0;
     }
 
-    @media screen and (max-width: 800px) {}
+    #meetups-container {
+        grid-template-areas:
+            'local-climbing-title'
+            'local-climbing-row-2'
+            'local-climbing-row-3'
+            'indoor-trips-title'
+            'indoor-trips-row-2'
+            'indoor-trips-row-3'
+            'outoor-trips-title'
+            'outoor-trips-row-2'
+            'outoor-trips-row-3'
+            'footer';
+    }
+}
 
-    /* for medium screen sizes from 950px wide and down */
-    @media screen and (max-width: 950px) {}
+@media screen and (max-width: 800px) {}
+
+/* for medium screen sizes from 950px wide and down */
+@media screen and (max-width: 950px) {}

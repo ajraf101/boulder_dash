@@ -132,6 +132,10 @@ header a {
     padding: 0 0 18px 0
 }
 
+#cover-text>div>h2 {
+    text-decoration: none;
+}
+
 #cover-text {
     font-family: Monserrat, sans-serif;
     text-transform: uppercase;

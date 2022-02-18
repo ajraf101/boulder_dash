@@ -445,7 +445,40 @@ header a {
     }
 }
 
-@media screen and (max-width: 800px) {}
-
 /* for medium screen sizes from 950px wide and down */
-@media screen and (max-width: 950px) {}
+@media screen and (max-width: 950px) {
+
+    header {
+        align-items: center;
+    }
+
+    #menu {
+        font-size: 120%;
+    }
+
+    #hero-image {
+        background: url(../images/pexels-skitterphoto-9606.jpg) no-repeat 48% 69%;
+    }
+
+    #cover-text {
+        bottom: 37%;
+        right: 2%;
+        width: 333px;
+        height: 180px;
+        font-size: 96%;
+        padding: 90px 25px;
+    }
+
+    .about-us-image {
+        padding: 10px;
+    }
+
+    .video-item {
+        padding: 0 10px;
+    }
+
+
+    .sign-up-div {
+        padding: 10px;
+    }
+}

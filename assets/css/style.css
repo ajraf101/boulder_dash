@@ -486,7 +486,7 @@ header a {
 @media screen and (max-width: 850px) {
 
     #logo {
-        font-size: 285%;
+        font-size: 215%;
     }
 
     #cover-text {
@@ -497,10 +497,6 @@ header a {
 }
 
 @media screen and (max-width: 670px) {
-
-    #logo {
-        font-size: 260%;
-    }
 
     #menu {
         font-size: 110%;

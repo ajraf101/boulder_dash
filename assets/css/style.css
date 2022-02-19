@@ -518,7 +518,7 @@ header a {
         width: 290px;
         padding: 60px 25px 90px 25px;
         bottom: 45%;
-        right: 6%;
+        right: 2%;
     }
 }
 
@@ -533,7 +533,6 @@ header a {
     /* Hero Image */
 
     #cover-text {
-        right: 2%;
         width: 238px;
     }
 }

@@ -520,3 +520,19 @@ header a {
         bottom: 45%;
     }
 }
+
+@media screen and (max-width: 320px) {
+
+    /* Nav bar*/
+
+    #menu {
+        font-size: 86%;
+    }
+
+    /* Hero Image */
+
+    #cover-text {
+        right: 2%;
+        width: 238px;
+    }
+}

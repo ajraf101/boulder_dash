@@ -60,8 +60,6 @@ There was an focus on keeping this site as simple as possible to have it accessi
 
 ## Testing 
 
-**!!!!!!COMPLETE THIS SECTION!!!!!**
-
 Testing has been carried out regularily throughtout the development of this website. As changes were made they were checked using the gitpod external server where the current and most up to date website would be displayed. The site was tested on multiple devices including a 13" Macbook pro, and ipad air 2 and an iphone xs. Various browsers were used in the testing phases. These included chrome, safari and firefox. 
 
 Interactive features were tested on each device to ensure the worked on all platforms. The main logo would reload the index.html page when pressed and each nav bar button brings the user to the correct section of the site.

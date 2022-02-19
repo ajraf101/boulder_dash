@@ -10,23 +10,23 @@ signup flexbox: https://coder-coder.com/display-divs-side-by-side/
 
 about us photo: https://www.pexels.com/photo/road-fashion-man-people-6676719/
 
-linking nav bar to areas on the site: https://www.tutorialrepublic.com/html-tutorial/html-links.php#:~:text=HTML Link Syntax,group of words%2C or image.
+linking nav bar to areas on the site: https://www.tutorialrepublic.com/html-tutorial/html-links.php#:~:text=HTML 
 
 styling with font awesome: https://fontawesome.com/docs/web/style/styling
 
-vertically align inside a flex box https://stackoverflow.com/questions/25311541/how-to-vertically-align-text-inside-a-flexbox
+Vertically align inside a flex box https://stackoverflow.com/questions/25311541/how-to-vertically-align-text-inside-a-flexbox
 
-how the grid worked in the end:https://www.w3schools.com/css/css_grid.asp
+How the grid worked in the end:https://www.w3schools.com/css/css_grid.asp
 
-grid background: https://www.w3schools.com/cssref/css3_pr_background-size.asp
+Grid background: https://www.w3schools.com/cssref/css3_pr_background-size.asp
 
-image color picker: https://imagecolorpicker.com/en
+Image color picker: https://imagecolorpicker.com/en
 
-styling for video in a div: Width: https://css-tricks.com/fluid-width-video/ Vertical align:https://stackoverflow.com/questions/28634780/vertically-centering-video-inside-a-video-tag
+Styling for video in a div: Width: https://css-tricks.com/fluid-width-video/ Vertical align:https://stackoverflow.com/questions/28634780/vertically-centering-video-inside-a-video-tag
 
-styling a paragraph:https://stackoverflow.com/questions/41253908/changing-spacing-between-paragraphs-and-inside-of-paragraphs, https://blog.hubspot.com/website/how-to-indent-css#:~:text=Paragraphs in CSS-,You can use the CSS text-indent property to indent,the first line by default.
+Styling a paragraph:https://stackoverflow.com/questions/41253908/changing-spacing-between-paragraphs-and-inside-of-paragraphs, https://blog.hubspot.com/website/how-to-indent-css#:~:text=paragraphs
 
-video compressor:https://www.veed.io/video-compressor
+Video compressor:https://www.veed.io/video-compressor
 
 Color pallette based on hero image #9e410c maroon #c0a68e dark beige #d06418 rich orange #e7dbce Cream #e4d4c3 slightly darker cream #352b2c dark brown/off-grey #d8854f pastel orange #7a624d light brown/green #b87067 pastel pink/red
 

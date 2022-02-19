@@ -1,14 +1,15 @@
 # Boulder Dash
 
-Boulder dash is a site that hopes to create a connection between other climbers by creating regular meetups and trips around Ireland. Bouldering is a specfic style of rock climbing that is simplified by requiring very little equipment. The site targets climbers that are interested in bouldering but also encourages those that are new to the idea to join. The sport can be considered a solo sport but the site aims to bring people together of all skill levels to teach and learn from each other both indoors and also have the chance to experience what climbing is like in an outdoor enviornment, something that is not so easy to achieve on your own.
+Boulder dash is a site that hopes to create a connection between other climbers by creating regular meetups and trips around Ireland. Bouldering is a specfic style of rock climbing that is simplified by requiring very little equipment. The site targets climbers that are interested in bouldering but also encourages those that are new to the idea to join. The sport can be considered a solo sport. The site aims to bring people together of all skill levels to teach and learn from each other. It encourages both indoors and the chance to experience what climbing is like in an outdoor enviornment.
 
-![Responsice Mockup](https://github.com/lucyrush/readme-template/blob/master/media/love_running_mockup.png)
+![Responsice Mockup](docs/screenshots/responsive.png)
 
 ## Features 
 
 There was an focus on keeping this site as simple as possible to have it accessible to as many users as possible. The site is a 3 page scrolling website with a main navigation bar and logo, a hero image, an about us section, a meetups section, a sign up section and social media links in the footer.
 
 ### Existing Features
+
 
 - __Navigation Bar__
 
@@ -61,72 +62,74 @@ There was an focus on keeping this site as simple as possible to have it accessi
 
 **!!!!!!COMPLETE THIS SECTION!!!!!**
 
-In this section, you need to convince the assessor that you have conducted enough testing to legitimately believe that the site works well. Essentially, in this part you will want to go over all of your project’s features and ensure that they all work as intended, with the project providing an easy and straightforward way for the users to achieve their goals.
+Testing has been carried out regularily throughtout the development of this website. As changes were made they were checked using the gitpod external server where the current and most up to date website would be displayed. The site was tested on multiple devices including a 13" Macbook pro, and ipad air 2 and an iphone xs. Various browsers were used in the testing phases. These included chrome, safari and firefox. 
 
-In addition, you should mention in this section how your project looks and works on different browsers and screen sizes.
+Interactive features were tested on each device to ensure the worked on all platforms. The main logo would reload the index.html page when pressed and each nav bar button brings the user to the correct section of the site.
 
-You should also mention in this section any interesting bugs or problems you discovered during your testing, even if you haven't addressed them yet.
+The video was tested on each device with the controls also confirmed to be working. The sign up form has also been tested and ensured that the link opens to a new tab. The social media icons follow the same idea with each opening to a new tab.
 
-If this section grows too long, you may want to split it off into a separate file and link to it from here.
-
+The website had further testing carried out by other users. The link was sent to a list of uses to test on the devices that they were using. All reports came back without any issues.
 
 ### Validator Testing 
 
-**!!!!!!COMPLETE THIS SECTION!!!!!**
 - HTML
   - No errors were returned when passing through the official [W3C validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Fajraf101.github.io%2Fboulder_dash%2Findex.html)
 - CSS
   - No errors were found when passing through the official [(Jigsaw) validator](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fajraf101.github.io%2Fboulder_dash%2F&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en)
 
-### Unfixed Bugs
-
-You will need to mention unfixed bugs and why they were not fixed. This section should include shortcomings of the frameworks or technologies used. Although time can be a big variable to consider, paucity of time and difficulty understanding implementation is not a valid reason to leave bugs unfixed. 
 
 ## Deployment
 
-This section should describe the process you went through to deploy the project to a hosting platform (e.g. GitHub) 
-
 - The site was deployed to GitHub pages. The steps to deploy are as follows: 
   - In the GitHub repository, navigate to the Settings tab 
-  - From the source section drop-down menu, select the Master Branch
-  - Once the master branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment. 
+  - in the code automation section on the left choose the pages tab.
+  - From the source section drop-down menu, select the Main Branch
+  - Once the main branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment. 
 
-The live link can be found here - https://code-institute-org.github.io/love-running-2.0/index.html 
+The live link can be found here - https://ajraf101.github.io/boulder_dash/
 
 
 ## Credits 
 
-In this section you need to reference where you got your content, media and extra help from. It is common practice to use code from other repositories and tutorials, however, it is important to be very specific about these sources to avoid plagiarism. 
+There were a large list of resources used in the creation of this site. Some of the most popular included https://stackoverflow.com/, tutors/students from code institute on slack and w3schools. Below are a list of the resources that have been used in the development of this site. All images and videos were provided by https://www.pexels.com/.
 
-You can break the credits section up into Content and Media, depending on what you have included in your project. 
+Favicon tutorial: https://www.w3schools.com/html/html_favicon.asp
 
-### Content 
+Hero image location https://www.pexels.com/photo/sport-muscles-climbing-climber-9606/
 
-- The text for the Home page was taken from Wikipedia Article A
-- Instructions on how to implement form validation on the Sign Up page was taken from [Specific YouTube Tutorial](https://www.youtube.com/)
-- The icons in the footer were taken from [Font Awesome](https://fontawesome.com/)
+Meetups grid: https://www.w3schools.com/css/css_grid.asp
 
-### Media
+Meetups grid photo: https://www.pexels.com/photo/beach-clouds-dawn-dusk-533842/
 
-- The photos used on the home and sign up page are from This Open Source site
-- The images used for the gallery page were taken from this other open source site
+Signup flexbox: https://coder-coder.com/display-divs-side-by-side/
 
+About us photo: https://www.pexels.com/photo/road-fashion-man-people-6676719/
 
-Congratulations on completing your Readme, you have made another big stride in the direction of being a developer! 
+Linking nav bar to areas on the site: https://www.tutorialrepublic.com/html-tutorial/html-links.php#:~:text=HTML 
 
-## Other General Project Advice
+Styling with font awesome: https://fontawesome.com/docs/web/style/styling
 
-Below you will find a couple of extra tips that may be helpful when completing your project. Remember that each of these projects will become part of your final portfolio so it’s important to allow enough time to showcase your best work! 
+Vertically align inside a flex box https://stackoverflow.com/questions/25311541/how-to-vertically-align-text-inside-a-flexbox
 
-- One of the most basic elements of keeping a healthy commit history is with the commit message. When getting started with your project, read through [this article](https://chris.beams.io/posts/git-commit/) by Chris Beams on How to Write  a Git Commit Message 
-  - Make sure to keep the messages in the imperative mood 
+How the grid worked in the end:https://www.w3schools.com/css/css_grid.asp
 
-- When naming the files in your project directory, make sure to consider meaningful naming of files, point to specific names and sections of content.
-  - For example, instead of naming an image used ‘image1.png’ consider naming it ‘landing_page_img.png’. This will ensure that there are clear file paths kept. 
+Grid background: https://www.w3schools.com/cssref/css3_pr_background-size.asp
 
-- Do some extra research on good and bad coding practices, there are a handful of useful articles to read, consider reviewing the following list when getting started:
-  - [Writing Your Best Code](https://learn.shayhowe.com/html-css/writing-your-best-code/)
-  - [HTML & CSS Coding Best Practices](https://medium.com/@inceptiondj.info/html-css-coding-best-practice-fadb9870a00f)
-  - [Google HTML/CSS Style Guide](https://google.github.io/styleguide/htmlcssguide.html#General)
+Styling for video in a div: Width: https://css-tricks.com/fluid-width-video/ Vertical align:https://stackoverflow.com/questions/28634780/vertically-centering-video-inside-a-video-tag
 
-Getting started with your Portfolio Projects can be daunting, planning your project can make it a lot easier to tackle, take small steps to reach the final outcome and enjoy the process! 
+Styling a paragraph:https://stackoverflow.com/questions/41253908/changing-spacing-between-paragraphs-and-inside-of-paragraphs, https://blog.hubspot.com/website/how-to-indent-css#:~:text=Paragraphs
+
+Video compressor:https://www.veed.io/video-compressor
+
+Image color picker: https://imagecolorpicker.com/en
+Color pallette based on hero image 
+#9e410c maroon 
+#c0a68e dark beige 
+#d06418 rich orange 
+#e7dbce Cream 
+#e4d4c3 slightly darker cream 
+#352b2c dark brown/off-grey 
+#d8854f pastel orange 
+#7a624d light brown/green 
+#b87067 pastel pink/red
+

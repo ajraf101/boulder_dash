@@ -378,6 +378,18 @@ header a {
 }
 
 
+@media screen and (max-width: 1430px) {
+
+    #about-us-container {
+        padding: 50px 100px 10px 100px;
+    }
+
+    #about-us-video-container {
+        padding: 100px;
+    }
+
+}
+
 @media screen and (max-width: 1200px) {
 
     header {
